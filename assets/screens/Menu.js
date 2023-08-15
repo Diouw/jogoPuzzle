@@ -8,7 +8,7 @@ const pontuacao = 10
 const Menu = (props) =>{
 
     const goToJogo = ()=>{
-
+        props.navigation.navigate('Jogo')
     }
 
     return(
@@ -37,7 +37,6 @@ const estilos = StyleSheet.create({
     main:{
         height:'100%',
         width:'100%',
-        backgroundColor: 'rgba(255,255,355,0.2)'
     },
     textoPrincipal:{
         fontSize:40,

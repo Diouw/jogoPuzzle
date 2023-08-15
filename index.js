@@ -2,9 +2,9 @@
  * @format
  */
 
+import 'react-native-gesture-handler';
 import {AppRegistry} from 'react-native';
-import App from './App';
 import {name as appName} from './app.json';
-import Menu from './assets/screens/Menu';
+import MyStack from './assets/MyStack.js';
 
-AppRegistry.registerComponent(appName, () => Menu);
+AppRegistry.registerComponent(appName, () => MyStack);
